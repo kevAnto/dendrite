@@ -10,7 +10,7 @@ It intends to provide an **efficient**, **reliable** and **scalable** alternativ
 
 As of October 2020, Dendrite has now entered **beta** which means:
 - Dendrite is ready for early adopters. We recommend running in Monolith mode with a PostgreSQL database.
-- Dendrite has periodic semver releases. We intend to release new versions as we land significant features.
+- Dendrite has periodic server releases. We intend to release new versions as we land significant features.
 - Dendrite supports database schema upgrades between releases. This means you should never lose your messages when upgrading Dendrite.
 - Breaking changes will not occur on minor releases. This means you can safely upgrade Dendrite without modifying your database or config file.
 
